@@ -11,5 +11,5 @@ public class AutorCrearActualizarDto
 {
     [Required]
     [StringLength(Constants.NAME_MAX_LEN)]
-    public string? Name {get; set;} 
+    public string Name {get; set;} 
 }
