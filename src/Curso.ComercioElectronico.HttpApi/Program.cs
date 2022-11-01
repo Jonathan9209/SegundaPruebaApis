@@ -20,6 +20,9 @@ builder.Services.AddScoped<ComercioElectronicoDbContext>();
 builder.Services.AddTransient<IAutorRepository, AutorRepository>();
 builder.Services.AddTransient<IAutorAppService, AutorAppService>();
 
+builder.Services.AddTransient<IEditorialRepository, EditorialRepository>();
+builder.Services.AddTransient<IEditorialAppService, EditorialAppService>();
+
 
 var app = builder.Build();
 

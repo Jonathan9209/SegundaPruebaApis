@@ -8,6 +8,7 @@ public class ComercioElectronicoDbContext:DbContext, IUnitOfWork
 
     //Agregar sus entidades
     public DbSet<Autor> Autores {get;set;}
+    public DbSet<Editorial> Editoriales {get;set;}
     
 
     public string DbPath { get; set; }
