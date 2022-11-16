@@ -1,9 +1,10 @@
+using System.Diagnostics;
+using System.Reflection;
 using Curso.ComercioElectronico.Application;
 using Curso.ComercioElectronico.Domain;
 using Curso.ComercioElectronico.Infraestructure;
-using Curso.ComercioElectronico.HttpApi;
-using Curso.ComercioElectronico;
 using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -13,17 +14,16 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-///Dependencias
-builder.Services.AddScoped<ComercioElectronicoDbContext>();
+ 
 
+builder.Services.AddInfraestructure(builder.Configuration);
 
-builder.Services.AddTransient<IAutorRepository, AutorRepository>();
-builder.Services.AddTransient<IAutorAppService, AutorAppService>();
+builder.Services.AddApplication(builder.Configuration);
+ 
 
-builder.Services.AddTransient<IEditorialRepository, EditorialRepository>();
-builder.Services.AddTransient<IEditorialAppService, EditorialAppService>();
-
-
+//builder.Services.AddAutoMapper(Assembly.GetAssembly(typeof(ProductoAppService)));
+ 
+ 
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

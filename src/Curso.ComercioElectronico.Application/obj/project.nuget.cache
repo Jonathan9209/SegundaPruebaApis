@@ -1,8 +1,21 @@
 {
   "version": 2,
-  "dgSpecHash": "kjj6U+HRWJZdN8YDkJDsuVG1MO8T5zbpSQ7opjb36vJ31UlJNrOR7jDzIwAyPtCyTLYljzcE9653ea2THBoLbA==",
+  "dgSpecHash": "Aq3Xt5Ic5D1PKNFUsxK47fDq9Kr1kln620udpRglRFZ6SrI2cbOsJQ6m/lMt1g/rmpEpo26XFfrAfeg8XBSBEA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Jonathan\\Desktop\\BibliotecaPrueba\\src\\Curso.ComercioElectronico.Application\\Curso.ComercioElectronico.Application.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Jonathan\\Desktop\\Proyecto_Final\\src\\Curso.ComercioElectronico.Application\\Curso.ComercioElectronico.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Jonathan\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
+    "C:\\Users\\Jonathan\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
+    "C:\\Users\\Jonathan\\.nuget\\packages\\fluentvalidation\\11.2.1\\fluentvalidation.11.2.1.nupkg.sha512",
+    "C:\\Users\\Jonathan\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.2.2\\fluentvalidation.aspnetcore.11.2.2.nupkg.sha512",
+    "C:\\Users\\Jonathan\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.2.1\\fluentvalidation.dependencyinjectionextensions.11.2.1.nupkg.sha512",
+    "C:\\Users\\Jonathan\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\Jonathan\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\Jonathan\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\Jonathan\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.0\\microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\Jonathan\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "C:\\Users\\Jonathan\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\Jonathan\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
