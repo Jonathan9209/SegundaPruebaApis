@@ -1,5 +1,3 @@
-
-
 using Curso.ComercioElectronico.Application;
 using Microsoft.AspNetCore.Mvc;
 

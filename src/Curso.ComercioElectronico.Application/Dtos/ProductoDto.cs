@@ -29,6 +29,6 @@ public class ProductoDto
     public int TipoProductoId {get;set;}
 
     public string TipoProducto {get;set;}
-
+    public int Valoracion { get; internal set; }
 }
 

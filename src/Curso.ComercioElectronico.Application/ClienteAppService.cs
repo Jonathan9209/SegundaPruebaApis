@@ -45,8 +45,8 @@ public class ClienteAppService : IClienteAppService
         clienteCreado.Nombres = cliente.Nombres; 
         clienteCreado.Apellidos = cliente.Apellidos;
         clienteCreado.Cedula = cliente.Cedula;
-        clienteCreado.Direccion = clienteDto.Direccion;
-        clienteCreado.Telefono = clienteDto.Telefono;
+        clienteCreado.Direccion = cliente.Direccion;
+        clienteCreado.Telefono = cliente.Telefono;
 
 
         return clienteCreado;

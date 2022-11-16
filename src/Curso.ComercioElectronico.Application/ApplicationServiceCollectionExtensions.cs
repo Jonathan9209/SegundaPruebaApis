@@ -18,6 +18,7 @@ public static class ApplicationServiceCollectionExtensions
         services.AddTransient<IOrdenAppService, OrdenAppService>();
         services.AddTransient<IClienteAppService, ClienteAppService>();
 
+
         //Configurar la inyección de todos los profile que existen en un Assembly
         services.AddAutoMapper(Assembly.GetExecutingAssembly());
 

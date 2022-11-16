@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fBfHqNSTIgZxcE9CGQcroZOQ4ZxNmSdv69PolutJvbSx+jBqEcmpJ5c+xlblYP943NjDL/MsgMUuUKpzbzolOw==",
+  "dgSpecHash": "Q7uMt+tQ5MiYOwpALoGwcezIyIOYCs2Ds/eyeUbDfhA/6cQqFtK2ufQLeWRWf4EQzUNa7qjvagXcoQo5TydBTQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Jonathan\\Desktop\\Proyecto_Final\\src\\Curso.ComercioElectronico.HttpApi\\Curso.ComercioElectronico.HttpApi.csproj",
+  "projectFilePath": "C:\\Users\\Jonathan\\Desktop\\BibliotecaPrueba\\ProyectoFinal\\src\\Curso.ComercioElectronico.HttpApi\\Curso.ComercioElectronico.HttpApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Jonathan\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\Jonathan\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",

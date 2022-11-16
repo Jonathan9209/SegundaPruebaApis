@@ -19,6 +19,8 @@ public class ComercioElectronicoDbContext : DbContext, IUnitOfWork
     public DbSet<Cliente> Clientes { get; set; }
    
     public DbSet<Orden> Ordenes { get; set; }
+    public DbSet<Calificacion> Calificaciones { get; set; }
+    public DbSet<Carro> Carros { get; set; }
  
   
     public string DbPath { get; set; }
